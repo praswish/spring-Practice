@@ -25,6 +25,11 @@ public class SimpleController {
         return "print Praswish";
     }
 
+    @GetMapping("/display")
+    public String display() {
+        return "display Praswish";
+    }
+
 
 
 }
