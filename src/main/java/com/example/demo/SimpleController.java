@@ -15,9 +15,9 @@ public class SimpleController {
         return "say Praswish";
     }
 
-    @GetMapping("/hi")
+    @GetMapping("/hello")
     public String hi(@RequestParam("name") String name) {
-        return "Hello World= HI " + name;
+        return "Hello World= Hello" + name;
     }
 
 
