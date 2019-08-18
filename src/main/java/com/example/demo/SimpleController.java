@@ -20,6 +20,11 @@ public class SimpleController {
         return "Hello World= Hello" + name;
     }
 
+    @GetMapping("/print")
+    public String print() {
+        return "print Praswish";
+    }
+
 
 
 }
